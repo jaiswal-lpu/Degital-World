@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Modern Interactive Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Degital<span>World</span></a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="portpholiyo.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" class="btn btn-primary">Get Started</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <a href="index.html" class="back-link">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+            <h1 class="animate-fade-up">Contact Us</h1>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info-section">
+        <div class="container">
+            <div class="contact-info-grid">
+                <div class="contact-info-card reveal-card">
+                    <div class="info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>For general inquiries and information</p>
+                    <a href="mailto:info@company.com">info@company.com</a>
+                </div>
+                <div class="contact-info-card reveal-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>Monday to Friday, 9am to 5pm EST</p>
+                    <a href="tel:+15551234567">+1 (555) 123-4567</a>
+                </div>
+                <div class="contact-info-card reveal-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>Our office location</p>
+                    <address>
+                        123 Business Ave, Suite 100<br>
+                        New York, NY 10001
+                    </address>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title reveal-text">Office Location</h2>
+            <div class="map-container reveal-image">
+                <!-- In a real application, you would embed a Google Map here -->
+                <div class="map-placeholder">
+                    <p>Map Placeholder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Forms Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-text">Get In Touch</h2>
+                <p class="reveal-text">Have a project in mind? We'd love to hear from you. Choose the form that best suits your needs.</p>
+            </div>
+            <div class="contact-tabs">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-tab="general">General Inquiry</button>
+                    <button class="tab-btn" data-tab="quote">Request a Quote</button>
+                    <button class="tab-btn" data-tab="support">Technical Support</button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="general">
+                        <form class="contact-form" id="general-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="Your email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" placeholder="What is this regarding?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Send Message <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div class="form-success" id="general-success">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Message Sent!</h3>
+                            <p>Thank you for contacting us. We'll get back to you shortly.</p>
+                            <button class="btn btn-outline reset-form" data-form="general">Send Another Message</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="quote">
+                        <form class="contact-form" id="quote-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="quote-name">Name</label>
+                                    <input type="text" id="quote-name" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="quote-email">Email</label>
+                                    <input type="email" id="quote-email" placeholder="Your email" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <input type="text" id="company" placeholder="Your company name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" placeholder="Your phone number">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="project-type">Project Type</label>
+                                <select id="project-type" required>
+                                    <option value="" disabled selected>Select project type</option>
+                                    <option value="website">Website Design</option>
+                                    <option value="ecommerce">E-Commerce</option>
+                                    <option value="webapp">Web Application</option>
+                                    <option value="mobile">Mobile App</option>
+                                    <option value="branding">Branding</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" required>
+                                    <option value="" disabled selected>Select budget range</option>
+                                    <option value="small">$1,000 - $5,000</option>
+                                    <option value="medium">$5,000 - $10,000</option>
+                                    <option value="large">$10,000 - $25,000</option>
+                                    <option value="enterprise">$25,000+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="project-details">Project Details</label>
+                                <textarea id="project-details" placeholder="Tell us about your project requirements" rows="5" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="timeline">Timeline</label>
+                                <select id="timeline" required>
+                                    <option value="" disabled selected>Select timeline</option>
+                                    <option value="urgent">ASAP (1-2 weeks)</option>
+                                    <option value="soon">Soon (2-4 weeks)</option>
+                                    <option value="normal">Normal (1-2 months)</option>
+                                    <option value="flexible">Flexible (3+ months)</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Request Quote <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div class="form-success" id="quote-success">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Quote Request Sent!</h3>
+                            <p>Thank you for your interest. We'll review your project details and get back to you with a quote shortly.</p>
+                            <button class="btn btn-outline reset-form" data-form="quote">Submit Another Request</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="support">
+                        <form class="contact-form" id="support-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="support-name">Name</label>
+                                    <input type="text" id="support-name" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="support-email">Email</label>
+                                    <input type="email" id="support-email" placeholder="Your email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="order-id">Order/Project ID</label>
+                                <input type="text" id="order-id" placeholder="Your order or project ID" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="issue-type">Issue Type</label>
+                                <select id="issue-type" required>
+                                    <option value="" disabled selected>Select issue type</option>
+                                    <option value="technical">Technical Issue</option>
+                                    <option value="billing">Billing Question</option>
+                                    <option value="feature">Feature Request</option>
+                                    <option value="bug">Bug Report</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="priority">Priority</label>
+                                <select id="priority" required>
+                                    <option value="" disabled selected>Select priority</option>
+                                    <option value="low">Low</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="high">High</option>
+                                    <option value="critical">Critical</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="issue-details">Issue Details</label>
+                                <textarea id="issue-details" placeholder="Please describe your issue in detail" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Submit Support Request <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div class="form-success" id="support-success">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Support Request Received!</h3>
+                            <p>Thank you for contacting our support team. We'll address your issue as soon as possible.</p>
+                            <button class="btn btn-outline reset-form" data-form="support">Submit Another Request</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#team">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@company.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>
+                                123 Business Ave, Suite 100<br>
+                                New York, NY 10001
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> CompanyName. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Cursor Animation -->
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>

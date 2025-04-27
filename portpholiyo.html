@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Modern Interactive Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Degital<span>World</span></a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="portpholiyo.html" >Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" class="btn btn-primary">Get Started</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Page Header -->
+    <section class="page-header portfolio-header">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="container">
+            <h1 class="animate-text-reveal">Our <span class="text-gradient">Portfolio</span></h1>
+            <p class="animate-fade-up">Explore our latest projects and see how we've helped businesses transform their digital presence.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Filter -->
+    <section class="portfolio-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">Mobile Apps</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-grid">
+        <div class="container">
+            <div class="portfolio-items">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 1">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="portfolio-detail.html" class="btn btn-light">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Modern E-Learning Platform</h3>
+                            <p>Web Design, UI/UX</p>
+                            <div class="portfolio-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 2">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="portfolio-detail.html" class="btn btn-light">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Fitness Tracking App</h3>
+                            <p>Mobile App, UI/UX</p>
+                            <div class="portfolio-tags">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>iOS/Android</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 3">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="portfolio-detail.html" class="btn btn-light">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Eco-Friendly Brand Identity</h3>
+                            <p>Branding, Logo Design</p>
+                            <div class="portfolio-tags">
+                                <span>Branding</span>
+                                <span>Logo</span>
+                                <span>Print</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 4">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="portfolio-detail.html" class="btn btn-light">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Luxury Fashion Store</h3>
+                            <p>E-Commerce, Web Design</p>
+                            <div class="portfolio-tags">
+                                <span>Shopify</span>
+                                <span>Custom Theme</span>
+                                <span>Payment Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 5">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="portfolio-detail.html" class="btn btn-light">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Real Estate Platform</h3>
+                            <p>Web Application, UI/UX</p>
+                            <div class="portfolio-tags">
+                                <span>Vue.js</span>
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 6">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="portfolio-detail.html" class="btn btn-light">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Food Delivery App</h3>
+                            <p>Mobile App, UI/UX</p>
+                            <div class="portfolio-tags">
+                                <span>React Native</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 7">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="portfolio-detail.html" class="btn btn-light">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Tech Startup Rebrand</h3>
+                            <p>Branding, Identity Design</p>
+                            <div class="portfolio-tags">
+                                <span>Brand Strategy</span>
+                                <span>Visual Identity</span>
+                                <span>Guidelines</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Project 8">
+                            <div class="portfolio-overlay">
+                                <div class="overlay-content">
+                                    <a href="portfolio-detail.html" class="btn btn-light">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Artisan Marketplace</h3>
+                            <p>E-Commerce, Web Design</p>
+                            <div class="portfolio-tags">
+                                <span>WooCommerce</span>
+                                <span>WordPress</span>
+                                <span>Custom Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="animate-on-scroll" data-animation="fadeInUp">Ready to start your project?</h2>
+                <p class="animate-on-scroll" data-animation="fadeInUp" data-delay="200">Let's create something amazing together. Contact us today to discuss your ideas.</p>
+                <a href="contact.html" class="btn btn-primary animate-on-scroll" data-animation="fadeInUp" data-delay="400">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#team">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services-detail.html">Web Design</a></li>
+                        <li><a href="services-detail.html">Development</a></li>
+                        <li><a href="services-detail.html">Branding</a></li>
+                        <li><a href="services-detail.html">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@company.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>
+                                123 Business Ave, Suite 100<br>
+                                New York, NY 10001
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> CompanyName. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Cursor Animation -->
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>

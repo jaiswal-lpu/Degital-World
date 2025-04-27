@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Interactive Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Degital<span>World</span></a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="portpholiyo.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" class="btn btn-primary">Get Started</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-fade-up">Create <span>Stunning</span> Digital Experiences</h1>
+                <p class="animate-fade-up">We build beautiful, functional websites and applications that help your business grow and succeed in the digital world.</p>
+                <div class="hero-buttons animate-fade-up">
+                    <a href="#" class="btn btn-primary">Get Started <i class="fas fa-arrow-right"></i></a>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-text">Why Choose Us</h2>
+                <p class="reveal-text">We combine cutting-edge technology with exceptional design to deliver outstanding results.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized for speed and performance to provide the best user experience possible.</p>
+                </div>
+                <div class="feature-card reveal-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure & Reliable</h3>
+                    <p>Built with security in mind, ensuring your data is always protected.</p>
+                </div>
+                <div class="feature-card reveal-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>Comprehensive analytics to help you understand your users and grow your business.</p>
+                </div>
+                <div class="feature-card reveal-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Scalable</h3>
+                    <p>Designed to grow with your business, from startup to enterprise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-text">Our Services</h2>
+                <p class="reveal-text">Comprehensive digital solutions to help your business thrive in the digital landscape.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal-card" data-color="blue">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Web Development</h3>
+                        <p>Custom web applications built with the latest technologies to meet your specific business needs.</p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card reveal-card" data-color="purple">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>UI/UX Design</h3>
+                        <p>Beautiful, intuitive interfaces designed to provide the best user experience for your customers.</p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card reveal-card" data-color="green">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>E-Commerce</h3>
+                        <p>Powerful online stores that drive sales and provide a seamless shopping experience.</p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card reveal-card" data-color="pink">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Digital Marketing</h3>
+                        <p>Strategic marketing campaigns to increase your online presence and drive qualified traffic.</p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-text">What Our Clients Say</h2>
+                <p class="reveal-text">Don't just take our word for it. Here's what our clients have to say about working with us.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-container">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="client-info">
+                                <div class="client-image">
+                                    <img src="https://via.placeholder.com/100" alt="Sarah Johnson">
+                                </div>
+                                <div class="client-details">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4>Sarah Johnson</h4>
+                                    <p>CEO, TechStart</p>
+                                </div>
+                            </div>
+                            <blockquote>
+                                "Working with this team has been an absolute pleasure. They delivered our project on time and exceeded all our expectations. The attention to detail and creativity they brought to our website redesign was exceptional."
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="client-info">
+                                <div class="client-image">
+                                    <img src="https://via.placeholder.com/100" alt="Michael Chen">
+                                </div>
+                                <div class="client-details">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4>Michael Chen</h4>
+                                    <p>Marketing Director, GrowthCo</p>
+                                </div>
+                            </div>
+                            <blockquote>
+                                "The team's expertise in both design and development is impressive. They took our vague ideas and transformed them into a beautiful, functional website that perfectly represents our brand."
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="client-info">
+                                <div class="client-image">
+                                    <img src="https://via.placeholder.com/100" alt="Emily Rodriguez">
+                                </div>
+                                <div class="client-details">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <h4>Emily Rodriguez</h4>
+                                    <p>Founder, EcoStore</p>
+                                </div>
+                            </div>
+                            <blockquote>
+                                "Our e-commerce sales increased by 200% after launching our new website. The user experience is seamless, and the design is exactly what we were looking for. Highly recommended!"
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="client-info">
+                                <div class="client-image">
+                                    <img src="https://via.placeholder.com/100" alt="David Wilson">
+                                </div>
+                                <div class="client-details">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <h4>David Wilson</h4>
+                                    <p>CTO, InnovateTech</p>
+                                </div>
+                            </div>
+                            <blockquote>
+                                "The development process was smooth from start to finish. Communication was excellent, and the team was responsive to our feedback and requests for changes. A truly professional experience."
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                        <span class="dot" data-index="3"></span>
+                    </div>
+                    <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="reveal-text">Get In Touch</h2>
+                <p class="reveal-text">Have a project in mind? We'd love to hear from you. Choose the form that best suits your needs.</p>
+            </div>
+            <div class="contact-tabs">
+                <div class="tabs-nav">
+                    <button class="tab-btn active" data-tab="general">General Inquiry</button>
+                    <button class="tab-btn" data-tab="quote">Request a Quote</button>
+                    <button class="tab-btn" data-tab="support">Technical Support</button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="general">
+                        <form class="contact-form" id="general-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="Your email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" placeholder="What is this regarding?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" placeholder="Your message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Send Message <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div class="form-success" id="general-success">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Message Sent!</h3>
+                            <p>Thank you for contacting us. We'll get back to you shortly.</p>
+                            <button class="btn btn-outline reset-form" data-form="general">Send Another Message</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="quote">
+                        <form class="contact-form" id="quote-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="quote-name">Name</label>
+                                    <input type="text" id="quote-name" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="quote-email">Email</label>
+                                    <input type="email" id="quote-email" placeholder="Your email" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <input type="text" id="company" placeholder="Your company name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" id="phone" placeholder="Your phone number">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="project-type">Project Type</label>
+                                <select id="project-type" required>
+                                    <option value="" disabled selected>Select project type</option>
+                                    <option value="website">Website Design</option>
+                                    <option value="ecommerce">E-Commerce</option>
+                                    <option value="webapp">Web Application</option>
+                                    <option value="mobile">Mobile App</option>
+                                    <option value="branding">Branding</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" required>
+                                    <option value="" disabled selected>Select budget range</option>
+                                    <option value="small">$1,000 - $5,000</option>
+                                    <option value="medium">$5,000 - $10,000</option>
+                                    <option value="large">$10,000 - $25,000</option>
+                                    <option value="enterprise">$25,000+</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="project-details">Project Details</label>
+                                <textarea id="project-details" placeholder="Tell us about your project requirements" rows="5" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="timeline">Timeline</label>
+                                <select id="timeline" required>
+                                    <option value="" disabled selected>Select timeline</option>
+                                    <option value="urgent">ASAP (1-2 weeks)</option>
+                                    <option value="soon">Soon (2-4 weeks)</option>
+                                    <option value="normal">Normal (1-2 months)</option>
+                                    <option value="flexible">Flexible (3+ months)</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Request Quote <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div class="form-success" id="quote-success">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Quote Request Sent!</h3>
+                            <p>Thank you for your interest. We'll review your project details and get back to you with a quote shortly.</p>
+                            <button class="btn btn-outline reset-form" data-form="quote">Submit Another Request</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="support">
+                        <form class="contact-form" id="support-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="support-name">Name</label>
+                                    <input type="text" id="support-name" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="support-email">Email</label>
+                                    <input type="email" id="support-email" placeholder="Your email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="order-id">Order/Project ID</label>
+                                <input type="text" id="order-id" placeholder="Your order or project ID" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="issue-type">Issue Type</label>
+                                <select id="issue-type" required>
+                                    <option value="" disabled selected>Select issue type</option>
+                                    <option value="technical">Technical Issue</option>
+                                    <option value="billing">Billing Question</option>
+                                    <option value="feature">Feature Request</option>
+                                    <option value="bug">Bug Report</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="priority">Priority</label>
+                                <select id="priority" required>
+                                    <option value="" disabled selected>Select priority</option>
+                                    <option value="low">Low</option>
+                                    <option value="medium">Medium</option>
+                                    <option value="high">High</option>
+                                    <option value="critical">Critical</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="issue-details">Issue Details</label>
+                                <textarea id="issue-details" placeholder="Please describe your issue in detail" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Submit Support Request <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                        <div class="form-success" id="support-success">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Support Request Received!</h3>
+                            <p>Thank you for contacting our support team. We'll address your issue as soon as possible.</p>
+                            <button class="btn btn-outline reset-form" data-form="support">Submit Another Request</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html#team">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@company.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>
+                                123 Business Ave, Suite 100<br>
+                                New York, NY 10001
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> CompanyName. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Cursor Animation -->
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Preloader -->
+    <!-- <div class="preloader">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="loader-circle" cx="40" cy="40" r="32"></circle>
+            </svg>
+        </div>
+    </div> -->
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>
